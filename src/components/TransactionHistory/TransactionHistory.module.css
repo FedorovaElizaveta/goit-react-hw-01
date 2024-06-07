@@ -1,0 +1,16 @@
+.transactionTable {
+  width: 660px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.transactionTableMainRow {
+  background-color: #000;
+  color: #fff;
+}
+
+.transactionTableBody {
+  border: 1px solid #000;
+}

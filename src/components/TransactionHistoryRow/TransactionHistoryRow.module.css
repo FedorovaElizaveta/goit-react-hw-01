@@ -1,0 +1,9 @@
+.transactionTableBodyRow,
+.transactionTableBodyColumn {
+  border: 1px solid #000;
+  width: 220px;
+}
+
+.transactionTableBodySecondRow:nth-child(2n) {
+  background-color: #d3d3d3;
+}

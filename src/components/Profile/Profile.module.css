@@ -1,0 +1,43 @@
+.profileContainer {
+  width: 450px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.profileUserInformation {
+  background-color: #fafafa;
+  padding: 20px;
+  color: #7d7d7d;
+}
+
+.profileUserInformationImg {
+  background-color: #2a2a2a;
+  border-radius: 50%;
+}
+
+.profileStatistics {
+  background-color: #d3d3d3;
+  border-top: 1px solid #000;
+}
+
+.profileStatisticsList {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin: 0;
+}
+
+.profileStatisticsListItem {
+  width: 150px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.profileUserInformationName,
+.profileStatisticsListItemAmount {
+  color: #000;
+  font-weight: 700;
+}
